@@ -1,3 +1,9 @@
+console.log('Z3DLine', {
+    LO_WEBHOOK_URL,
+    HI_WEBHOOK_URL,
+    HI_FILTER
+});
+
 [
     'https://unpkg.com/jsonpack',
     'https://unpkg.com/msgpack-lite/dist/msgpack.min.js'
